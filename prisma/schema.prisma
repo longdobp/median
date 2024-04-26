@@ -10,7 +10,8 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  // url      = env("DATABASE_URL")
+  url      = "postgres://medianuser:SkdDllfdhL3TXup90mkW5vcCY8DLh3er@dpg-coli48ol5elc73bi1mr0-a.singapore-postgres.render.com/mediandb_0w00"
 }
 
 model Article {
